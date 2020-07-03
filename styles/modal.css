@@ -14,14 +14,46 @@
 
 .modal {
     background-color: white;
-    width: 60%;
-    height: 60%;
+    width: 660px;
+    height: 413px;
+
+    border-radius: 16px;
 
     position: relative;
 }
 
-.modal a {
+.modal-content {
+    margin: 30px;
+}
+
+.modal-content img {
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-content h4 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.modal-content p {
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+    text-align: center;
+}
+
+.modal a p {
     cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
 }
 
 /* MODAL OVERLAY ACTIVE */
@@ -30,3 +62,4 @@
     opacity: 1;
     visibility: visible;
 }
+

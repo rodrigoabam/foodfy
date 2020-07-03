@@ -2,18 +2,21 @@ main h2 {
     margin-bottom: 20px;
 
     font-size: 24px;
+    font-weight: 700;
 }
 
 main h3 {
     margin: 30px 0 20px;
 
     font-size: 20px;
+    font-weight: 500;
 }
 
 main p {
     margin-bottom: 30px;
 
     font-size: 18px;
+    font-weight: 400;
     color: #444444;
     line-height: 28px;
 }
