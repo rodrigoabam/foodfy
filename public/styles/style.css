@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
 }
 
-.content {
+main, header {
     width: 940px;
     margin: 0 auto;
 }

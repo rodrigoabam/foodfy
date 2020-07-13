@@ -1,0 +1,70 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<main>
+    <div class="title">
+        <div class="text">
+            <h2>As melhores receitas</h2>
+            <p>
+                Aprenda a construir os melhores pratos
+                com receitas criadas por profissionais
+                do mundo inteiro.
+            </p>
+        </div>
+        <div>
+            <img src="/imagens/chef.png" alt="chef">
+        </div>
+    </div>
+
+    <div class="mostAccessed">
+        <h3>Mais acessadas</h3>
+        <div class="dishes">
+            <div class="dish" id="burger">
+                <img src="/imagens/burger.png" alt="burger">
+                <h4>Triplo bacon burger</h4>
+                <p>por Jorge Relato</p>
+            </div>
+            <div class="dish" id="pizza">
+                <img src="/imagens/pizza.png" alt="pizza">
+                <h4>Pizza 4 estações</h4>
+                <p>por Fabiana Melo</p>
+            </div>
+            <div class="dish" id="espaguete">
+                <img src="/imagens/espaguete.png" alt="espaguete">
+                <h4>Espaguete ao alho</h4>
+                <p>por Júlia Kinoto</p>
+            </div>
+            <div class="dish" id="lasanha">
+                <img src="/imagens/lasanha.png" alt="lasanha">
+                <h4>Lasanha mac n’ cheese</h4>
+                <p>por Juliano Vieira</p>
+            </div>
+            <div class="dish" id="doce">
+                <img src="/imagens/doce.png" alt="doce">
+                <h4>Docinhos pão-do-céu</h4>
+                <p>por Ricardo Golvea</p>
+            </div>
+            <div class="dish" id="asinhas">
+                <img src="/imagens/asinhas.png" alt="asinhas">
+                <h4>Asinhas de frango ao barbecue</h4>
+                <p>por Vania Steroski</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="modal-overlay">
+    <div class="modal">
+        <div class="modal-content">
+            <img src="" alt="">
+            <h4></h4>
+            <p></p>
+            <a class="close-modal">
+                <p>Fechar</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
