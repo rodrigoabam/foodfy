@@ -9,66 +9,13 @@
 <main>
     <div class="mostAccessed">
         <div class="dishes">
-            <div class="dish" id="burger">
-                <img src="/imagens/burger.png" alt="burger">
-                <h4>Triplo bacon burger</h4>
-                <p>por Jorge Relato</p>
+            {% for dish in dishes %}
+            <div class="dish" id="{{ dish.id }}">
+                <img src="/imagens/{{ dish.id }}.png" alt="Imagem do {{ dish.id }}">
+                <h4>{{ dish.name }}</h4>
+                <p>{{ dish.author }}</p>
             </div>
-            <div class="dish" id="pizza">
-                <img src="/imagens/pizza.png" alt="pizza">
-                <h4>Pizza 4 estações</h4>
-                <p>por Fabiana Melo</p>
-            </div>
-            <div class="dish" id="espaguete">
-                <img src="/imagens/espaguete.png" alt="espaguete">
-                <h4>Espaguete ao alho</h4>
-                <p>por Júlia Kinoto</p>
-            </div>
-            <div class="dish" id="lasanha">
-                <img src="/imagens/lasanha.png" alt="lasanha">
-                <h4>Lasanha mac n’ cheese</h4>
-                <p>por Juliano Vieira</p>
-            </div>
-            <div class="dish" id="doce">
-                <img src="/imagens/doce.png" alt="doce">
-                <h4>Docinhos pão-do-céu</h4>
-                <p>por Ricardo Golvea</p>
-            </div>
-            <div class="dish" id="asinhas">
-                <img src="/imagens/asinhas.png" alt="asinhas">
-                <h4>Asinhas de frango ao barbecue</h4>
-                <p>por Vania Steroski</p>
-            </div>
-            <div class="dish" id="burger">
-                <img src="/imagens/burger.png" alt="burger">
-                <h4>Triplo bacon burger</h4>
-                <p>por Jorge Relato</p>
-            </div>
-            <div class="dish" id="pizza">
-                <img src="/imagens/pizza.png" alt="pizza">
-                <h4>Pizza 4 estações</h4>
-                <p>por Fabiana Melo</p>
-            </div>
-            <div class="dish" id="espaguete">
-                <img src="/imagens/espaguete.png" alt="espaguete">
-                <h4>Espaguete ao alho</h4>
-                <p>por Júlia Kinoto</p>
-            </div>
-            <div class="dish" id="lasanha">
-                <img src="/imagens/lasanha.png" alt="lasanha">
-                <h4>Lasanha mac n’ cheese</h4>
-                <p>por Juliano Vieira</p>
-            </div>
-            <div class="dish" id="doce">
-                <img src="/imagens/doce.png" alt="doce">
-                <h4>Docinhos pão-do-céu</h4>
-                <p>por Ricardo Golvea</p>
-            </div>
-            <div class="dish" id="asinhas">
-                <img src="/imagens/asinhas.png" alt="asinhas">
-                <h4>Asinhas de frango ao barbecue</h4>
-                <p>por Vania Steroski</p>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </main>
