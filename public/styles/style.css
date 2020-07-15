@@ -32,7 +32,7 @@ header {
 }
 
 header img {
-    margin-right: 122.4px;
+    margin-right: 120px;
 }
 
 header .nav {
@@ -83,7 +83,7 @@ div.title img {
     margin-right: 100px;
 }
 
-.mostAccessed h3 {
+.dish-home h3 {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
