@@ -23,27 +23,21 @@ server.get("/about", function(req, res){
 })
 
 server.get("/dishes/:index", function (req, res) {
-    const foods = dishes;
-    const foodIndex = req.params.index;
+    const dishIndex = req.params.index;
   
-    return res.render("dishes", { dish:foods[foodIndex] });
-  })
+    return res.render("dishes", { dish:dishes[dishIndex] } );
+})
 
-/* server.get("/dish", function(req, res){
-    const id = req.query.id
 
-    const dish = dishes.find(function(dish){
-        if(dish.id == id){
-            return true;
-        }
-    }) 
-
-    if(!dish){
-        return res.send("dish not found")
+server.use(function(req, res){
+    const error = {
+        img: "https://cdn.dribbble.com/users/4902434/screenshots/11490599/media/d85bf595bedc3604c14ad609dd0ab0c0.jpg",
+        name: "Error 404",
+        note: "Receita não encontrada!"
     }
 
-    return res.render("dish", { dish })
-}) */
+    res.status(404).render("not-found", { error } )
+})
 
 server.listen(3000, function() {
     console.log("server is running")

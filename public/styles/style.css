@@ -139,3 +139,18 @@ footer p {
     text-align: center;
     padding: 23px;
 }
+
+/* notfound */
+.error {
+    text-align: center;
+}
+
+.error p {
+    color: #111111;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.error h2 img {
+    width: 60%;
+}
