@@ -21,13 +21,19 @@
     color: #777777;
 }
 
-h3 {
+.title-step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-step h3 {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-h3 span {
+.title-step span {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
@@ -39,13 +45,15 @@ h3 span {
 }
 
 li {
+    margin-left: 16px;
+
     font-weight: 700;
     font-size: 18px;
     color: #444444;
     line-height: 28px;
 }
 
-.info-add p {
+#info-add p {
     font-weight: 700;
     font-size: 18px;
     color: #444444;
@@ -56,7 +64,19 @@ li {
 
 
 
-.ingredients, .preparation {
+.step {
     margin-bottom: 39px;
 }
 
+
+/* content hiden show */
+
+main .step .content {
+    overflow:hidden;
+    max-height: 200px;
+    transition: 0.8s ease-in-out;
+}
+
+main .step .content.hidde {
+    max-height: 0;
+}

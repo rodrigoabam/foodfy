@@ -13,8 +13,11 @@
            <h2>{{ dish.name }}</h2>
            <p>{{ dish.author }}</p>
        </div>
-       <div class="ingredients">
-           <h3>Ingredientes <span>esconder</span> </h3>
+       <div class="step">
+           <div class="title-step">
+                <h3>Ingredientes</h3>
+                <span>esconder</span>
+           </div>
            <div class="content">
             <ul>
                {% for ingredient in dish.ingredients %}
@@ -23,8 +26,11 @@
            </ul>
            </div>
        </div>
-       <div class="preparation">
-           <h3>Modo de preparo <span>esconder</span> </h3>
+       <div class="step">
+           <div class="title-step">
+                <h3>Modo de preparo </h3>
+                <span>esconder</span>
+           </div>
             <div class="content">
             <ul>
                {% for step in dish.preparation %}
@@ -33,8 +39,11 @@
            </ul>
             </div>
        </div>
-       <div class="info-add">
-           <h3>Informações adicionais <span>mostrar</span> </h3>
+       <div class="step">
+           <div class="title-step">
+                <h3>Informações adicionais</h3>
+                <span>esconder</span>
+           </div>
            <div class="content">
             <p>{{ dish.infos }}</p>
            </div>
