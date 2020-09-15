@@ -23,7 +23,7 @@
         <div class="dishes">
         {% for dish in dishes %}
             <div class="dish" id="{{dish.id}}">
-                <img src="/imagens/{{dish.id}}.png" alt="Imagem do {{dish.id}}">
+                <img src="/imagens/{{dish.img}}.png" alt="Imagem do {{dish.img}}">
                 <h4>{{ dish.name }}</h4>
                 <p>{{ dish.author }}</p>
             </div>

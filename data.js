@@ -1,8 +1,9 @@
 module.exports = [
     {
-        id: "burger",
+        id: 0,
         name: "Triplo bacon burger",
         author: "por Jorge Relato",
+        img: "burger",
         ingredients: [
             { name: "3k g de carne moída (escolha uma carne magra e macia);" },
             { name: "300 g de bacon moído;" },
@@ -21,9 +22,10 @@ module.exports = [
         infos: "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!         Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
     },
     {
-        id: "pizza",
+        id: 1,
         name: "Pizza 4 estações",
         author: "por Fabiana Melo",
+        img: "pizza",
         ingredients: [
             { name: "400 g de farinha de trigo;" },
             { name: "320 ml de água morna;" },
@@ -42,9 +44,10 @@ module.exports = [
         infos: "Pizza 4 estações leva o seu nome a partir da eliminação dos ingredientes nele, geralmente dispostos em 4 dentes de pelúcia de uma maneira diferente. Quase todos os pizzaria propõe ao público com ingredientes diferentes, alguém usa cogumelos porcini, outros usam tomates secos, há aqueles que ainda acrescenta vários vegetais."
     },
     {
-        id: "espaguete",
+        id: 2,
         name: "Espaguete ao alho",
         author: "por Júlia Kinoto",
+        img: "espaguete",
         ingredients: [
             { name: "500 g de espaguete;" },
             { name: "2 colheres (sopa) de sal;" },
@@ -62,9 +65,10 @@ module.exports = [
         infos: "Se você estiver com pressa e gosta de massa, a receita de macarrão alho e óleo é a sua saída. Delicioso e simples de preparar sempre vai fazer o seu dia mais gostoso. Saiba mais sobre esta deliciosa receita de macarrão alho e óleo!"
     },
     {
-        id: "lasanha",
+        id: 3,
         name: "Lasanha mac n’ cheese",
         author: "por Juliano Vieira",
+        img: "lasanha",
         ingredients: [
             { name: "500 g de macarrão tipo rigatoni ;" },
             { name: "1 e 1/2L de leite integral;" },
@@ -86,9 +90,10 @@ module.exports = [
         infos: "Cozinhe o Rigatoni por 8 minutos em abundante água fervente e salgada. Escorrer e despejar em uma assadeira. Juntar o molho de queijos à massa e cobrir com a farinha Panko. Levar ao forno pré-aquecido em temperatura máxima por 5 minutos, ou até que a massa esteja cozida e bem dourada. Servir imediatamente."
     },
     {
-        id: "doce",
+        id: 4,
         name: "Docinhos pão-do-céu",
         author: "por Ricardo Golvea",
+        img: "doce",
         ingredients: [
             { name: "3 kg de carne moída (escolha uma carne magra e macia);" },
             { name: "300 g de bacon moído;" },
@@ -107,9 +112,10 @@ module.exports = [
         infos: "Preaqueça a chapa, frigideira ou grelha por 10 minutos antes de levar os hambúrgueres. Adicione um pouquinho de óleo ou manteiga e não amasse os hambúrgueres!         Você sabia que a receita que precede o hambúrguer surgiu no século XIII, na Europa? A ideia de moer a carne chegou em Hamburgo no século XVII, onde um açogueiro resolveu também temperá-la. Assim, a receita foi disseminada nos Estados Unidos por alemães da região. Lá surgiu a ideia de colocar o hambúrguer no meio do pão e adicionar outros ingredientes, como queijom tomates e alface."
     },
     {
-        id: "asinhas",
+        id: 5,
         name: "Asinhas de frango ao barbecue",
         author: "por Vania Steroski",
+        img: "asinhas",
         ingredients: [
             { name: "1,5 kg de asase meio de asas de frango;" },
             { name: "Suco de 3 limões;" },

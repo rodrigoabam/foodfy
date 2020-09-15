@@ -22,12 +22,11 @@ server.get("/about", function(req, res){
     return res.render("about")
 })
 
-server.get("/dishes/:index", function (req, res) {
-    const dishIndex = req.params.index;
+server.get("/dishes/:id", function (req, res) {
+    const dishId = req.params.id;
   
-    return res.render("dishes", { dish:dishes[dishIndex] } );
+    return res.render("dishes", { dish:dishes[dishId] } );
 })
-
 
 server.use(function(req, res){
     const error = {
