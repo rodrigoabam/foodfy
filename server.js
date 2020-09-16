@@ -1,10 +1,11 @@
 const express = require("express")
 const nunjucks = require("nunjucks")
-const dishes = require("./data")
+const routes = require("./routes")
 
 const server = express()
 
 server.use(express.static("public"))
+server.use(routes)
 
 server.set("view engine", "njk")
 
@@ -12,20 +13,6 @@ nunjucks.configure("views", {
     express: server,
     autoescape: false,
     noCache: true
-})
-
-server.get("/", function(req, res){
-    return res.render("home", { dishes })
-})
-
-server.get("/about", function(req, res){
-    return res.render("about")
-})
-
-server.get("/dishes/:id", function (req, res) {
-    const dishId = req.params.id;
-  
-    return res.render("dishes", { dish:dishes[dishId] } );
 })
 
 server.use(function(req, res){
