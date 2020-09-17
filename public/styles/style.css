@@ -31,6 +31,14 @@ header {
     align-items: center;
 }
 
+header div.logo {
+    display: inline-flex;
+}
+
+header div.logo a {
+    display: flex;
+}
+
 header img {
     margin-right: 120px;
 }
@@ -43,7 +51,7 @@ header .nav :hover {
     text-decoration: underline;
 }
 
-header a {
+header .nav a {
     margin-right: 30px;
 
     font-weight: 400;
@@ -153,4 +161,65 @@ footer p {
 
 .error h2 img {
     width: 60%;
+}
+
+/* admin */
+header.admin-header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+header.admin-header div.logo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+div.page-admin h2 {
+    font-size: 24px;
+    font-weight: 700;
+
+    margin: 50px 0 50px;
+}
+
+
+div.page-admin .dishes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+div.page-admin .dish {
+    margin-bottom: 20px;
+
+    display: flex;
+}
+
+div.page-admin .dish img {
+    width: 172px;
+    height: 80px;
+    border-radius: 8.75px;
+    margin-right: 20px;
+}
+
+div.page-admin .dish h4 {
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 5px;
+}
+
+div.page-admin .dish p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+
+    margin-bottom: 10px;
+}
+
+div.page-admin .dish a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #6558C3;
 }

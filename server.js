@@ -19,10 +19,10 @@ server.use(function(req, res){
     const error = {
         img: "https://cdn.dribbble.com/users/4902434/screenshots/11490599/media/d85bf595bedc3604c14ad609dd0ab0c0.jpg",
         name: "Error 404",
-        note: "Receita não encontrada!"
+        note: "Página não encontrada!"
     }
 
-    res.status(404).render("not-found", { error } )
+    res.status(404).render("dishes/not-found", { error } )
 })
 
 server.listen(3000, function() {
