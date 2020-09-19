@@ -1,0 +1,65 @@
+{% extends "admin/layout.njk" %}
+
+{% block head %}
+<link rel="stylesheet" href="/styles/dishes.css">
+{% endblock %}
+
+{% block content %}
+
+<main>
+    <div class="page-admin">
+    <div class="header-content">
+        <h2>Receita: Triplo bacon burger</h2>
+        <a href="http://">Editar receita</a>
+    </div>
+
+    <div class="dish-show">
+       <div class="header">
+           <img src="/imagens/burger.png" alt="Imagem do burger">
+           <h2>Triplo bacon burger</h2>
+           <p>por Jorge Relato</p>
+       </div>
+       <div class="step">
+           <div class="title-step">
+                <h3>Ingredientes</h3>
+           </div>
+           <div class="content">
+            <ul>
+                <li>- 3k g de carne moída (escolha uma carne magra e macia);</li> 
+                <li>- 300 g de bacon moído;</li> 
+                <li>- 1 ovo;</li> 
+                <li>- 3 colheres (sopa) de farinha de trigo;</li> 
+                <li>- 3 colheres (sopa) de tempero caseiro: feito com alho, sal, cebola, pimenta e cheiro verde processados no liquidificador;</li> 
+                <li>- 30 ml de água gelada;</li>
+           </ul>
+           </div>
+       </div>
+       <div class="step">
+           <div class="title-step">
+                <h3>Modo de preparo </h3>
+           </div>
+            <div class="content">
+            <ul>
+                <li>- 1º passo</li>
+                <li>- 2º passo</li>
+                <li>- 3º passo</li>
+                <li>- 4º passo</li>
+                <li>- 5º passo</li>
+           </ul>
+            </div>
+       </div>
+       <div class="step">
+           <div class="title-step">
+                <h3>Informações adicionais</h3>
+           </div>
+           <div class="content">
+            <p>Pizza 4 estações leva o seu nome a partir da eliminação dos ingredientes nele, geralmente dispostos em 4 dentes de pelúcia de uma maneira diferente. 
+                Quase todos os pizzaria propõe ao público com ingredientes diferentes, alguém usa cogumelos porcini, outros usam tomates secos, 
+                há aqueles que ainda acrescenta vários vegetais.</p>
+           </div>
+       </div>
+    </div>
+    </div>
+</main>
+
+{% endblock %}

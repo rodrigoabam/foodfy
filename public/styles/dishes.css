@@ -44,8 +44,12 @@
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
-    margin-left: 16px;
+    margin-left: 0;
 
     font-weight: 700;
     font-size: 18px;
@@ -62,12 +66,15 @@ li {
     margin-bottom: 30px;
 }
 
-
-
 .step {
     margin-bottom: 39px;
 }
 
+.step .content {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
 
 /* content hiden show */
 

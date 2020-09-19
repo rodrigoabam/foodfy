@@ -21,7 +21,7 @@
            <div class="content">
             <ul>
                {% for ingredient in dish.ingredients %}
-                    <li>{{ ingredient.name }}</li>
+                    <li>- {{ ingredient.name }}</li>
                {% endfor %}
            </ul>
            </div>
@@ -34,7 +34,7 @@
             <div class="content">
             <ul>
                {% for step in dish.preparation %}
-                    <li>{{ step.step }}</li>
+                    <li>- {{ step.step }}</li>
                {% endfor %}
            </ul>
             </div>
@@ -48,7 +48,6 @@
             <p>{{ dish.infos }}</p>
            </div>
        </div>
-    
 </main>
 
 {% endblock %}
