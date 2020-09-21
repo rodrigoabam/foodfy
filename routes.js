@@ -16,7 +16,7 @@ routes.get("/admin/recipes", recipes.index)
 routes.get("/admin/recipes/create", recipes.create)
 routes.get("/admin/recipess", recipes.show)
 routes.get("/admin/recipes/:id/edit", recipes.edit)
-routes.post("/admin/recipes", recipes.create)
+routes.post("/admin/recipes", recipes.post)
 routes.put("/admin/recipes", recipes.show)
 routes.delete("/admin/recipes", recipes.edit)
 
