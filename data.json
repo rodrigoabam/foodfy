@@ -1,1 +1,17 @@
-{"name":"Pizza","photo_recipe":"https://go.hurb.com/wp-content/uploads/2020/03/Pizzaria-cria-cadeiras-para-combinar-com-a-mesa-que-vem-nas-caixas-de-pizza-5.jpg","ingredients":["Massa"],"preparations":["Preparar"],"add-info":"Muitas calorias                  \r\n                "}
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "author_recipe": "Rodrigo",
+      "photo_recipe": "https://go.hurb.com/wp-content/uploads/2020/03/Pizzaria-cria-cadeiras-para-combinar-com-a-mesa-que-vem-nas-caixas-de-pizza-5.jpg",
+      "ingredients": [
+        "Massa"
+      ],
+      "preparations": [
+        "Preparar"
+      ],
+      "add_info": "aa                    \r\n                "
+    }
+  ]
+}

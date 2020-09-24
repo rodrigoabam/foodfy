@@ -8,17 +8,17 @@
 {% block content %}
 
 <main>
-       <div class="header">
+       <div class="introdution">
            <img src="/imagens/{{dish.img}}.png" alt="Imagem do  {{ dish.img }}">
            <h2>{{ dish.name }}</h2>
            <p>{{ dish.author }}</p>
        </div>
-       <div class="step">
-           <div class="title-step">
+       <div class="group">
+           <div class="title-group">
                 <h3>Ingredientes</h3>
                 <span>esconder</span>
            </div>
-           <div class="content">
+           <div class="content-group">
             <ul>
                {% for ingredient in dish.ingredients %}
                     <li>- {{ ingredient.name }}</li>
@@ -26,12 +26,12 @@
            </ul>
            </div>
        </div>
-       <div class="step">
-           <div class="title-step">
+       <div class="group">
+           <div class="title-group">
                 <h3>Modo de preparo </h3>
                 <span>esconder</span>
            </div>
-            <div class="content">
+            <div class="content-group">
             <ul>
                {% for step in dish.preparation %}
                     <li>- {{ step.step }}</li>
@@ -39,12 +39,12 @@
            </ul>
             </div>
        </div>
-       <div class="step">
-           <div class="title-step">
+       <div class="group">
+           <div class="title-group">
                 <h3>Informações adicionais</h3>
                 <span>esconder</span>
            </div>
-           <div class="content">
+           <div class="content-group">
             <p>{{ dish.infos }}</p>
            </div>
        </div>

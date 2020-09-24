@@ -91,7 +91,7 @@ div.title img {
     margin-right: 100px;
 }
 
-.dish-home h3 {
+.cards h3 {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 24px;
@@ -164,13 +164,13 @@ footer p {
 }
 
 /* admin */
-header.admin-header {
+header.header-admin {
     height: 80px;
     width: 100%;
     background-color: black;
 }
 
-header.admin-header div.logo {
+header.header-admin div.logo {
     width: 940px;
     margin: 0 auto;
 }
@@ -188,7 +188,7 @@ header.admin-header div.logo {
     font-weight: 700;
 }
 
-.page-admin .header-content button {
+.page-admin .header-content button,.page-admin .header-content a {
     width: 139px;
     height: 37px;
 
@@ -197,6 +197,20 @@ header.admin-header div.logo {
 
     background: #6558C3;
     border-radius: 4px;
+}
+
+.page-admin .header-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish-show .introdution img {
+    margin-top: 20px;
+}
+
+.page-admin .cards-dishes {
+    margin-top: 26px;
 }
 
 .page-admin .dishes {
