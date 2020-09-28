@@ -12,6 +12,32 @@
         "Preparar"
       ],
       "add_info": "aa                    \r\n                "
+    },
+    {
+      "id": 2,
+      "name": "Batata Frita",
+      "author_recipe": "Palloma",
+      "photo_recipe": "https://images.unsplash.com/photo-1504693390394-c24671c3e8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "ingredients": [
+        "Batata"
+      ],
+      "preparations": [
+        "Cortar e Fritar por 2 minutos"
+      ],
+      "add_info": "Lavar e escovar antes do preparo."
+    },
+    {
+      "id": 3,
+      "name": "Arroz",
+      "author_recipe": "Abc",
+      "photo_recipe": "https://images.unsplash.com/photo-1516684732162-798a0062be99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "ingredients": [
+        "Arroz"
+      ],
+      "preparations": [
+        "Cozinhar"
+      ],
+      "add_info": "Lavar antes do preparo."
     }
   ]
 }

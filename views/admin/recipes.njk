@@ -6,18 +6,18 @@
     <div class="page-admin">
     <div class="header-content">
         <h2>Gerenciar receitas</h2>
-        <a href="http://">Nova receita</a>
+        <a href="/admin/recipes/create">Nova receita</a>
     </div>
 
     <div class="cards-dishes">
         <div class="dishes">
-        {% for dish in dishes %}
-            <div class="dish" id="{{dish.id}}">
-                <img src="/imagens/{{dish.img}}.png" alt="Imagem do {{dish.img}}">
+        {% for recipe in recipes %}
+            <div class="dish" id="{{recipe.id}}">
+                <img src="{{recipe.photo_recipe}}" alt="Imagem {{recipe.photo_recipe}}">
                 <div class="infos">
-                    <h4>{{ dish.name }}</h4>
-                    <p>{{ dish.author }}</p>
-                    <a href="http://">Visualizar</a>
+                    <h4>{{recipe.name}}</h4>
+                    <p>por {{ recipe.author_recipe }}</p>
+                    <a href="/admin/recipes/{{recipe.id}}">Visualizar</a>
                 </div>
             </div>
         {% endfor %}

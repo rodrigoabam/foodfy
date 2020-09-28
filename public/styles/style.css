@@ -197,6 +197,14 @@ header.header-admin div.logo {
 
     background: #6558C3;
     border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.page-admin .header-content button.form-delete {
+    width: 92px;
+    margin-right: 10px;
+    background: #DC4747;
 }
 
 .page-admin .header-content a {
