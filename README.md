@@ -2,32 +2,31 @@
 
 ## <h1> 🚧 Desafio em construção 🚧</h1>
 
-## 🏋️‍♀️ [Desafio Foodfy](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-refatorando-foodfy.md): Refatorando Foodfy
+## 🏋️‍♀️ [Desafio Foodfy](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-04/blob/master/desafios/04-admin-foodfy.md): Administração do Foodfy
 
 ---
 
 ## <h2>🎯 O desafio teve como objetivo fortalecer os conceitos:</h2>
- - Criação de servidor;
- - Trazer o front-end para o servidor;
- - Páginas dinâmicas com Nunjucks;
- - Query Strings;
+ - Criar container de conteúdo;
+ - Trabalhar dados do Front-end com req.body;
+ - Validar dados no Back-end;
+ - Callback functions;
+ - Dados em JSON;
+ - Spread Operador do JS;
+ - Method Override;
 
  ---
 
  ## <h2>📑 Descrição do desafio:</h2>
 
-<p>Reescrever algumas partes, do seu código do desafio anterior, o Foodfy.
-Agora com conhecimento sobre Node.js, tornar a exibição dos dados mais dinâmica.
-Crie um arquivo data.js na raiz do projeto com o conteúdo de link.
-Usar os dados das receitas contidos no arquivo data.js para a página de listagem de receitas e para a home.
-Converter O projeto em um projeto Node.js usando Nunjucks para mostrar cada página.
-A página do detalhe da receita precisa buscar no arquivo data.js apenas a receita desejada pelo usuário, por isso você usará de parâmetros na rota dessa página, por exemplo: http://localhost:3000/recipes/3, nesse caso estaríamos acessando os detalhes da receita com índice 3 no array de receitas.</p>
+<p>Criar uma área administrativa para o Foodfy, aplicação que desenvolvemos nos desafios anteriores. Utilizando o mesmo projeto do Foodfy desenvolvido no desafio anterior e somente adicionar essa área administrativa, que será responsável por cadastrar, editar e deletar os dados que estão no seu novo arquivo data.json.</p>
 
  ---
 
  ## <h2>🎥 Ilustração da aplicação:</h2>
 
-<h1>
-    <img src="public/imagens/preview1.gif">
-</h1>
+<p>
+    Gift será atualizado assim que o desafio for concluído.
+    <!-- <img src="public/imagens/preview1.gif"> -->
+</p>
 
