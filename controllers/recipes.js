@@ -6,7 +6,7 @@ exports.index = function(req, res){
   return res.render("admin/recipes", { recipes: data.recipes })
 }
 exports.create = function(req, res){
-  return res.render("admin/create", { dishes })
+  return res.render("admin/create")
 }
 exports.show = function(req, res){
   const { id } = req.params 
@@ -46,7 +46,12 @@ exports.post = function(req, res){
 
   let {name, author_recipe, photo_recipe, ingredients, preparations, add_info} = req.body
 
-  const id = Number(data.recipes.length + 1)
+  let id = 1
+  const lastRecipe = data.recipes[data.recipes.length - 1]
+
+  if(lastRecipe){
+    id = lastRecipe.id + 1
+  }
 
   data.recipes.push({
     id,
@@ -91,7 +96,6 @@ exports.put = function(req, res){
     return res.redirect(`/admin/recipes/${id}`)
   })
 }
-
 exports.delete = function(req, res){
   const { id } = req.body
 
